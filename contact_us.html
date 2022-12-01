@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		input[type=submit]:hover {
+			background-color: #ff4321;
+		}
+
+		input[type=submit] {
+			display: inline-block;
+			background-color: lightgrey;
+			color: white;
+			padding: 20px 80px;
+			font-weight: 600;
+			border: 1px;
+			border-radius: 40px;
+
+		}
+		.fform {
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			padding: 20px;
+		}
+
+		input[type=text], select {
+			width: 100%;
+			padding: 12px;
+			border: 10px;
+			border-radius: 40px;
+			resize: vertical;
+			box-sizing: border-box;
+			margin-top: 10px;
+			margin-bottom: 16px;
+		}
+
+		.logo {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 16%;
+			height: 16%;
+
+		}
+
+		nav ul li {
+			position: relative;
+			list-style: none;
+			margin: 10px 20px;
+			display: inline-block;
+		}
+
+		nav ul li a {
+			text-decoration: none;
+			color: #606163;
+		}
+
+		nav ul li a:hover:not(.active) {
+			color:  #ff4321;
+		}
+
+		.active {
+			background-color: lightblue;
+			display: block;
+			border: 2px solid lightblue;
+			border-radius: 60px;
+			padding: 10px 40px
+		}
+
+	</style>
+	<meta charset="utf-8">
+	<meta name="Contact Us" content="width=device-width, initial-scale=1">
+	<title>Contact Us</title>
+</head>
+
+<body>
+	<img src="bg.JPG" class="logo">
+	<header class="header">
+		<nav>
+			<ul>
+				<li><a href="online_shoppping_home.html">HOME</a></li>
+				<li><a href="C:/Users/Mohamed/Desktop/DDW/DDW/homework_online_shopping/gallery.html">GALLERY</a></li>
+				<li><a href="C:/Users/Mohamed/Desktop/DDW/DDW/homework_online_shopping/about.html">ABOUT US</a></li>
+				<li><a href="contact_us.html" class="active">CONTACT US</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="fform">
+		<form name="Contact Us" action="Homepage.html" method="post">
+			<fieldset>
+				<legend>Please fill contact form</legend>
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name Please" required>
+
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your surname Please" required>
+
+
+				<label for="pnum">Phone Number</label>
+				<input type="text" id="pnum" name="pnum" placeholder="Your Phone Number Please" required>
+
+
+				<label for="region"> Region/State</label>
+				<select id="region" name="region" required>
+					<option value="Yangon">Yangon</option>
+					<option value="Mandalay">Mandalay</option>
+				</select>
+
+				<input type="submit" value="Submit">
+
+
+
+
+
+
+			</fieldset>
+		
+
+
+
+
+		</form>
+    </div>
+	
+
+
+
+
+</body>
+
+
+
+</html>
